@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="midia/favicon.ico" type="image/x-icon">
+    <title>Aulas de Front-End</title>
+</head>
+<body>
+    <h1>A ESTRUTURA DO SITE</h1>
+    <h1>Código Base</h1>
+    <img src="midia/codigo_base.png" alt="Código Base HTML">
+    <h2>!DOCTYPE HTML</h2>
+    <p>DOCTYPE define o documento como HTML5.</p>
+
+    <h2>HTML E LANG</h2>
+    <p>Html é uma TAG onde fica todo o código HTML <br> Lang é um ATRIBUTO para definir a linguagem do site.</p>
+    <img src="midia/elemento.png" alt="Elemento HTML">
+
+    <h2>HEAD</h2>
+    <p>Head é a área de configurações do site.</p>
+    <h2>META, CHARSET, NAME E CONTENT</h2>
+    <p>Meta é a tag para definir metadados do site <br> Charset é o atributo que define o conjunto de caracteres <br> Name e content definem a escala do site na tela da plataforma usada.</p>
+    <h2>TITLE</h2>
+    <p>Define o título que fica na guia do site.</p>
+    <img src="midia/title.png" alt="Title na Prática">
+
+    <h2>BODY</h2>
+    <p>É aonde fica todos os elementos visiveis do site.</p>
+    <h2>COMENTÁRIOS</h2>
+    <p>Use < ! -- -- > para comentar no seu código tudo dentro dessa tag fica invísivel no site</p>
+    <strong>DICA: Quando criar um Documento HTML, digite ! para já criar o código base do documento HTML.</strong>
+
+    <h1>Tags de Texto</h1>
+    <h2>Hierarquia de Títulos</h2>
+    <h1>H1 para Título</h1>
+    <h2>H2 para Seções</h2>
+    <h3>H3 para Subseções</h3>
+    <h4>H4 para Subníveis</h4>
+    <h5>H5 para Subníveis</h5>
+    <h6>H6 para Subníveis</h6>
+
+    <h2>Criação de Texto</h2>
+    <p>P para</p>
+    <p>Parágrafo</p>
+    Texto
+    sem P
+    <p>BR para <br> Quebrar a Linha</p>
+    <p>Existem tags que precisam fechar com / e outras que não precisam</p>
+    
+    <p>DICA: se quiser gerar um texto para testar alguma linha de código use lorem: <br>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi nulla sed, expedita inventore quas quis distinctio rerum porro eum minima, eaque nihil ut rem placeat accusantium tempora, quos mollitia natus?</p>
+
+    <h2>Símbolos e Emojis</h2>
+    <p>Você pode usar & ; para símbolos: &reg; &copy; &uparrow;</p>
+    <p>E também para emojis só que você deve pegar o código do emoji pelo <a href="https://emojipedia.org/">Emojipedia</a>: &#x1F60E; <br> Ou só copia e cola: ❤️</p>
+
+    <h2>Formatações de Texto</h2>
+    <p><strong>STRONG para texto em destaque</strong></p>
+    <p>Existe também a tag B mas ela é não semântica, oque significa que ela não tem significado só forma, e para mudar a forma o html não faz mais isso, quem faz é o css, então tags não semânticas como B, I, U, não é recomendado usar</p>
+    <p><em>EM para texto em ênfase</em></p>
+    <p><mark>MARK para texto marcado</mark></p>
+    <p><small>SMALL para texto pequeno</small></p>
+    <p>Existe a tag <big>BIG</big> para texto grande, só que ela é uma tag obsoleta, ou seja uma tag descontinuada, mesmo podendo usar ela agora, algum dia essa tag não funcionará mais, colocando o funcionamento do site em risco</p>
+    <p><del>DEL para texto deletado</del></p>
+    <p><ins>INS para texto inserido</ins></p>
+    <p><sup>SUP</sup> para texto sobrescrito</p>
+    <p><sub>SUB</sub> para texto subscrito</p>
+
+    <h2>Citações de Texto</h2>
+    <p><code>CODE para código-fonte</code></p>
+    <pre>
+        PRE
+        para
+        texto
+        pré-formatado
+    </pre>
+    <p>
+        Texto
+        sem
+        PRE
+    </p>
+
+    <p><q>Q para citação simples</q> <br> mesmo Q sendo só uma aspas é recomendado usar ele porque ele da sentido a citação(reproduzir falas exatas de terceiros ou trechos de obras)</p>
+
+    <p>BLOCKQUOTE para citações completas <br> 
+    Segundo Susan Gunelius, no seu livro Harry Potter: The Story of a Global Business Phenomenon:
+    <blockquote cite="https://www.google.com.br/books/edition/Harry_Potter/abYKXvCwEToC?hl=pt-BR&gbpv=1&dq=harry+potter&pg=PA119&printsec=frontcover">As the Harry Potter brand became more popular and thus more powerful, it began to extend to various media, and with those extensions came a profund effect.</blockquote>
+    Mesmo o atributo CITE não mudar nada visualmente é recomendado você colocar o link do livro, do autor, da venda, tanto faz porque assim a parte interna do site saberá que essa citação vem desse link
+    </p>
+    
+    <p><abbr title="Abreviação">ABBR para abreviação</abbr></p>
+    <p><bdo dir="rtl">BDO para mudar a direção do texto</bdo></p>
+
+    <h2>E tem o HR</h2>
+    <p>HR para criar uma linha</p>
+    <hr>
+
+    <h1>Tags de Imagem</h1>
+    <p>Você sabe oque muda se a imagem ter a extensão jpg ou png?? <br> 
+    O JPG ele tem mais poder de compactação, já o PNG ele permite transparência <br> 
+    E tem também a extensão GIF que permite animação</p>
+
+    <p>VOCÊ SABIA: Você não pode usar qualquer imagem no google com intuito de ganhar dinheiro <br>
+    Para não usar as imagens erradas faça a pesquisa no google imagens, vá em ferramentas, depois em direito de uso e selecione Licença Creative Commons <br>
+    Ou use o site <a href="https://unsplash.com/pt-br">Unsplash</a> ou <a href="https://www.pexels.com/pt-br/">Pexels</a> mas tem vários outros também</p>
+
+    <p>DICA: Uma imagem muito grande pode pesar muito seu site, é bom você adicionar imagens de no máximo 1500 de largura e 1000 de altura para ter o equilíbrio de boa qualidade e desempenho. O recomendado é para celular 300x300, para tablets 700x700 e para computadores 1000x1000. Baixe o app <a href="https://www.gimp.org/downloads/">Gimp</a> para redimensionar sua imagem e você pode editar sua imagens nele de maneira gratuita</p>
+
+    <h2>Tag IMG</h2>
+    <p>A tag IMG cria um espaço para imagem, SRC é onde você coloca o indica a origem da imagem e ALT é um texto alternativo para explicar oque é a imagem para leitores de tela e acessibilidade</p>
+    <img src="Paisagem1500.jpg" alt="Paisagem">
+
+    <h2>Imagem dentro de uma pasta</h2>
+    <p>E se a imagem estiver em outra pasta</p>
+    <img src="midia/bk500.png" alt="Logo BK">
+
+    <h2>Imagem fora do documento</h2>
+    <p>Também podemos caregar imagens externas</p>
+    <img src="https://jungleroots.com/wp-content/uploads/2022/11/giphy-1.gif" alt="Meme Esquilo">
+
+    <h2>Favicon</h2>
+    <p>Da para add um favicon(icone da guia) usando a tag LINK na parte HEAD do código é só digitar link e antes de apertar enter você seleciona link:favicon, ai você coloca o nome do arquivo do favicon no href</p>
+    <p>É recomendado você usar um arquivo de imagem .ico para conseguir imagens com e   ssa extensão você pode encontrar no site <a href="https://www.iconarchive.com/">Icon Arquive</a>, você pode criar um no <a href="https://www.favicon.cc/">Favicon.cc</a> ou criar um favicon a partir de um png pelo <a href="https://favicon.io/">Favicon.io</a></p>
+
+    <h2>Imagem Dinâmica</h2>
+    <p>Essa tag é praticamente essencial se quiser fazer um site profissional que faça com que as pessoas não saiam rápido, e por causa que as pessoas não saem do seu site tão rápido o google vai valorizar seu site</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="midia/img-pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="midia/img-medio.png" type="image/png">
+        <img src="midia/img-grande.png" alt="Imagem Grande">
+    </picture>
+
+    <h2>Formatos</h2>
+    <p>JPEG: JPEG ou JPG use-os quando precisar de arquivos mais leves e excelente compatibilidade com a maioria dos dispositivos e navegadores. <br>
+    PNG: O formato de arquivo PNG é amplamente utilizado em sites para exibir imagens digitais de alta qualidade ou sem fundo. <br>
+    GIF: Eles suportam animação básica. <br>
+    ICO: Use o formato ICO quando precisar criar ícones para sites.</p>
+
+    <h1>Vídeos</h1>
+    <h2>Vídeos Incorporados Externamente</h2>
+    <p>É recomendado você incorporar sites do youtube porque se você usar vídeos baixados pode pesar no custo da hospedagem, mas o problema do youtube é que o seu vídeo ficará público e dependendo da situação você não irá querer isso, por isso se for o caso use o vimeo, mas o problema dele é que ele é pago mas ele tem qualidade superior ao youtube então você terá que se ajustar conforme a situação</p>
+    <p>Para incorporar é simples basta ir em compartilhar e selecionar a opção incorporar e copiar o código</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wNeCC5cOGNE?si=5uFrTWCHd0DMavGP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/374848293?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Animals!"></iframe>
+
+    <h2>Vídeos de Hospedagem Própria</h2>
+    <p>Aqui no caso de baixar os vídeos em hospedagem própria acontece denovo você não pode simplesmente usar qualquer vídeo por conta dos direitos autorais, para fugir disso use o <a href="https://www.pexels.com/pt-br/">Pexels</a> que eu já recomendei. <br>
+    E é recomendado você tentar comprimir o arquivo por as vezes estar muito pesado e quanto mais pesado mais custoso será a hospedagem do site. Por isso baixe o <a href="https://handbrake.fr/">HandBrake</a> que é uma ferramenta, software ou equipamento que converte arquivos ou sinais de mídia de um formato para outro. <br>
+    E uma dica não precisa deixar seu vídeo passar de 1920x1080 e só usar 1080 para quando querer qualidade máxima no geral não precisa ser tão alta a resolução <br>
+    Para saber qual type pesquise</p>
+
+    <video width="500" poster="midia/thumb.jpg" controls>
+        <source src="midia/video.mp4" type="video/mp4">
+        <source src="midia/video.mov" type="video/quicktime">
+        <source src="midia/video.mkv" type="video/x-matroska">
+        <p>Seu navegador não é compatível com vídeo <a href="midia/video.mp4" download="video.mp4" type="video/mp4">Baixe aqui a música</a></p>
+    </video>
+    <p>Da para usar alguns atributos adicionais como o LOOP para o quando vídeo acabar voltar do início</p>
+
+    <h2>Formatos</h2>
+    <p>MP4: O formato MP4 deve ser a sua escolha principal quando você precisar de um equilíbrio ideal entre alta qualidade de imagem/som e um tamanho de arquivo leve. <br>
+    MOV: O formato MOV deve ser usado quando você prioriza qualidade de vídeo máxima e trabalha em fluxos de trabalho profissionais. <br>
+    MKV: O formato MKV é um "contêiner" de mídia ideal quando você precisa armazenar, em um único arquivo, vídeos de altíssima qualidade, múltiplas faixas de áudio, legendas variadas e até mesmo capítulos.</p>
+
+    <h1>Áudio</h1>
+    <p>Nesse caso para evitar de colocar um áudio com direitos autorais você pode ir no seu perfil do youtube e selecionar YouTube Studio e nele procurar pela biblioteca de áudio, qualquer som que baixar não terá que direitos autorais mas recomendo que filtre para aparecer músicas que não precise atribuir, para não precisar incluir as informações do som</p>
+    <audio preload="metadata" controls>
+        <source src="midia/ten-anno-beats.ogg" type="audio/ogg">
+        <source src="midia/ten-anno-beats.mp3" type="audio/mpeg">
+        <p>Seu navegador não é compatível com áudio <a href="midia/ten-anno-beats.mp3" download="ten-anno-beats.mp3" type="audio/mpeg">Baixe aqui a música</a></p>
+    </audio>
+    <p>As tags AUDIO e VIDEO funcionam igual a tag PICTURE e elas praticamente se usam da mesma maneira ela é uma tag de condição se a primeira linha dentro de alguma dessas tags não funcionar ela le a proxima e assim por diante. <br>
+    E uma dica se for colocar uma ordem aleatoria coloque do arquivo mais leve para o mais pesado.</p>
+
+    <h2>Formatos</h2>
+    <p>MP3: Use o formato MP3 quando precisar de compatibilidade universal e arquivos leves. <br>
+    OGG: O formato OGG deve ser usado quando você precisa de um arquivo de áudio altamente comprimido com qualidade superior ao MP3 e prefere uma tecnologia de código aberto e livre de royalties.</p>
+
+    <h1>Links</h1>
+    <h2>Link Externo</h2>
+    <p>Esse é a maneira padrão de criar um link mas não é recomendado <br> 
+        <a href="https://www.google.com/search?sca_esv=f21e304c56ab1b64&sxsrf=ANbL-n6Lngqs3a4B4U9KOmjddkMmP20SJA:1779733901462&udm=2&fbs=ADc_l-acAb_3MMOAUx0zmbUpgBqRiigBgL2I_pgQa-94zvB053XGJ8j52MAaeNcXRIAnvVdv2hS-xutuztQCtwyJHLDxZX9hKPZ8f1Tye7V6_-IFMYgHGIQNqspJMTsiek2GS7UL1JO_sZVYiWHw0Rb8Sg4mISBCdPZmaZ5cbre-g5N_npDIfjFAHN62uBGiPZ9A-wysfgyBzDdFEaaW25vgRcyhp7FQCw&q=bolsonaro+e+lula+meme&sa=X&ved=2ahUKEwiI8_a3idWUAxUKEbkGHTRrA8IQtKgLegQIFxAB&biw=767&bih=730&dpr=1.25">Link</a>
+    </p>
+    
+    <p>Links devem possuir o atributo rel que define a relação entre a página atual e o recurso vinculado, ele é essencial para SEO(um conjunto de técnicas de marketing digital usadas para melhorar o posicionamento de um site). Se for colocar um link para outro site use os atributos target para que o site do link não sobrepuja o seu assim tendo menos chance da pessoa não voltar para o seu site <br> 
+        <a target="_blank" rel="external" href="https://www.google.com/search?q=cavalos&sca_esv=f21e304c56ab1b64&udm=2&biw=767&bih=730&sxsrf=ANbL-n51nAATjMdlyRM3DTWgFDLSePTG-A%3A1779734058411&ei=KpYUaqrlGOHX5OUP-53e4AE&ved=0ahUKEwiqouKCitWUAxXhK7kGHfuOFxwQ4dUDCBE&uact=5&oq=cavalos&gs_lp=Egtnd3Mtd2l6LWltZyIHY2F2YWxvczIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIKEAAYgAQYigUYQzIFEAAYgAQyBRAAGIAEMgUQABiABEijBVAaWBpwAXgAkAEAmAGIAaABiAGqAQMwLjG4AQPIAQD4AQGYAgKgAqABwgINEAAYgAQYigUYQxixA8ICBhAAGAcYHpgDAIgGAZIHAzEuMaAHpASyBwMwLjG4B5IBwgcFMi0xLjHIBxSACAE&sclient=gws-wiz-img">Link ideal</a>
+    </p>
+
+    <h2>Link Interno</h2>
+    <p><a href="css.html" rel="next">Link</a></p>
+    <p>Link de outra pasta <br>
+        <a href="pag2/index.html" rel="next">Link 2</a>
+    </p>
+
+    <h2>Link para Download</h2>
+    <p><a href="midia/Anotações.pdf" download="Anotações.pdf" type="application/pdf">Link</a></p>
+
+    <h1>Listas</h1>
+    <h2>Ordenadas</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol type="A" start="4">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h2>Não Ordenadas</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Descritas</h2>
+    <dl>
+        <dt>Item 1</dt>
+        <dd>Descrição</dd>
+        <dt>Item 2</dt>
+        <dd>Descrição</dd>
+        <dt>Item 3</dt>
+        <dd>Descrição</dd>
+    </dl>
+
+    <h2>Misturadas</h2>
+    <p>A tag lista pode ser misturada com praticamente qualquer tag</p>
+    <ol>
+        <li>Item 1</li>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li><a href="#">Link</a></li>
+        </ul>
+        <li>Item 2</li>
+        <dl>
+            <dt>Item 1</dt>
+            <dd>Descrição</dd>
+            <dt>Item 2</dt>
+            <dd>Descrição</dd>
+        </dl>
+    </ol>
+
+    <p>Está página foi criada com o aprendizado dado pelo <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow">Curso em Vídeo</a></p>
+</body>
+</html>
