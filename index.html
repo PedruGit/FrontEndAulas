@@ -9,13 +9,13 @@
 <body>
     <h1>A ESTRUTURA DO SITE</h1>
     <h1>Código Base</h1>
-    <img src="midia/codigo_base.png" alt="Código Base HTML">
+    <img src="exemplos/codigo_base.png" alt="Exemplo do Código Base HTML">
     <h2>!DOCTYPE HTML</h2>
     <p>DOCTYPE define o documento como HTML5.</p>
 
     <h2>HTML E LANG</h2>
-    <p>Html é uma TAG onde fica todo o código HTML <br> Lang é um ATRIBUTO para definir a linguagem do site.</p>
-    <img src="midia/elemento.png" alt="Elemento HTML">
+    <p>Html é uma TAG onde fica todo o código HTML <br> Lang é um ATRIBUTO para definir a linguagem do site. <br>Pt-br é o VALOR para definir que a linguagem do site é Português do Brasil <br> Isso tudo é oque chamamos de ELEMENTO HTML.</p>
+    <img src="exemplos/elemento.png" alt="Exemplo de Elemento HTML">
 
     <h2>HEAD</h2>
     <p>Head é a área de configurações do site.</p>
@@ -23,13 +23,13 @@
     <p>Meta é a tag para definir metadados do site <br> Charset é o atributo que define o conjunto de caracteres <br> Name e content definem a escala do site na tela da plataforma usada.</p>
     <h2>TITLE</h2>
     <p>Define o título que fica na guia do site.</p>
-    <img src="midia/title.png" alt="Title na Prática">
+    <img src="exemplos/title.png" alt="Exemplo de Title na Prática">
 
     <h2>BODY</h2>
-    <p>É aonde fica todos os elementos visiveis do site.</p>
+    <p>É aonde fica todos os elementos visíveis que você está vendo no site agora.</p>
     <h2>COMENTÁRIOS</h2>
     <p>Use < ! -- -- > para comentar no seu código tudo dentro dessa tag fica invísivel no site</p>
-    <strong>DICA: Quando criar um Documento HTML, digite ! para já criar o código base do documento HTML.</strong>
+    <p><strong>DICA: Quando criar um Documento HTML, digite ! para já criar o código base do documento HTML.</strong></p>
 
     <h1>Tags de Texto</h1>
     <h2>Hierarquia de Títulos</h2>
@@ -45,30 +45,39 @@
     <p>Parágrafo</p>
     Texto
     sem P
+    <br><br><img src="exemplos/tagP.png" alt="Exemplo da tag P">
+    <hr>
     <p>BR para <br> Quebrar a Linha</p>
-    <p>Existem tags que precisam fechar com / e outras que não precisam</p>
-    
-    <p>DICA: se quiser gerar um texto para testar alguma linha de código use lorem: <br>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi nulla sed, expedita inventore quas quis distinctio rerum porro eum minima, eaque nihil ut rem placeat accusantium tempora, quos mollitia natus?</p>
+    <p><strong>OBSERVAÇÃO: Existem tags que precisam fechar com / e outras que não precisam</strong></p>
+    <img src="exemplos/tagcomfechamento.png" alt="Exemplo de tag com e sem fechamento">
+    <hr>
+    <p><strong>DICA: se quiser gerar um texto para testar alguma linha de código use Lorem:</strong></p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi nulla sed, expedita inventore quas quis distinctio rerum porro eum minima, eaque nihil ut rem placeat accusantium tempora, quos mollitia natus?</p>
 
     <h2>Símbolos e Emojis</h2>
-    <p>Você pode usar & ; para símbolos: &reg; &copy; &uparrow;</p>
+    <p>Você pode usar &valor; para símbolos: &reg; &copy; &uparrow;</p>
+    <img src="exemplos/tagSimbolos.png" alt="Exemplo de tag de símbolos">
     <p>E também para emojis só que você deve pegar o código do emoji pelo <a href="https://emojipedia.org/">Emojipedia</a>: &#x1F60E; <br> Ou só copia e cola: ❤️</p>
+    <img src="exemplos/tagEmojis.png" alt="Exemplo de tag de emojis">
 
     <h2>Formatações de Texto</h2>
     <p><strong>STRONG para texto em destaque</strong></p>
-    <p>Existe também a tag B mas ela é não semântica, oque significa que ela não tem significado só forma, e para mudar a forma o html não faz mais isso, quem faz é o css, então tags não semânticas como B, I, U, não é recomendado usar</p>
+    <p><strong>OBSERVAÇÃO: Existe também a tag B mas ela é não semântica, oque significa que ela não tem significado só forma, e para mudar a forma o html não faz mais isso, quem faz é o css, então tags não semânticas como B(texto em destaque), I(texto em ênfase), U(texto inserido), não são recomendado usar</strong></p>
     <p><em>EM para texto em ênfase</em></p>
     <p><mark>MARK para texto marcado</mark></p>
     <p><small>SMALL para texto pequeno</small></p>
-    <p>Existe a tag <big>BIG</big> para texto grande, só que ela é uma tag obsoleta, ou seja uma tag descontinuada, mesmo podendo usar ela agora, algum dia essa tag não funcionará mais, colocando o funcionamento do site em risco</p>
+    <p>Existe a tag <big>BIG</big></p>
+    <p><strong>OBSERVAÇÃO: BIG é uma tag obsoleta, ou seja uma tag descontinuada, mesmo podendo usar ela agora, algum dia essa tag não funcionará mais, colocando o funcionamento do site em risco</strong></p>
+    <img src="exemplos/tagBig.png" alt="Exemplo de tag descontinuada">
     <p><del>DEL para texto deletado</del></p>
     <p><ins>INS para texto inserido</ins></p>
     <p><sup>SUP</sup> para texto sobrescrito</p>
     <p><sub>SUB</sub> para texto subscrito</p>
 
     <h2>Citações de Texto</h2>
-    <p><code>CODE para código-fonte</code></p>
+    <p><code>CODE usado para escrever código-fonte</code> <br> 
+    <p>Exemplo: <code>let resultado = somar(5, 3);</code></p></p>
+    <hr>
     <pre>
         PRE
         para
@@ -80,36 +89,111 @@
         sem
         PRE
     </p>
-
-    <p><q>Q para citação simples</q> <br> mesmo Q sendo só uma aspas é recomendado usar ele porque ele da sentido a citação(reproduzir falas exatas de terceiros ou trechos de obras)</p>
-
+    <img src="exemplos/tagPre.png" alt="Exemplo da tag PRE">
+    <hr>
+    <p><q>Q para citação simples</q></p> 
+    <p><strong>OBSERVAÇÃO: Mesmo a tag Q sendo só uma aspas é recomendado usar ele porque ele da sentido a citação(reproduzir falas exatas de terceiros ou trechos de obras)</strong></p>
+    <hr>
     <p>BLOCKQUOTE para citações completas <br> 
     Segundo Susan Gunelius, no seu livro Harry Potter: The Story of a Global Business Phenomenon:
     <blockquote cite="https://www.google.com.br/books/edition/Harry_Potter/abYKXvCwEToC?hl=pt-BR&gbpv=1&dq=harry+potter&pg=PA119&printsec=frontcover">As the Harry Potter brand became more popular and thus more powerful, it began to extend to various media, and with those extensions came a profund effect.</blockquote>
-    Mesmo o atributo CITE não mudar nada visualmente é recomendado você colocar o link do livro, do autor, da venda, tanto faz porque assim a parte interna do site saberá que essa citação vem desse link
+    <strong>OBSERVAÇÃO: Mesmo o atributo CITE não mudar nada visualmente é recomendado você colocar o link do livro, do autor, da venda, tanto faz porque assim a parte interna do site saberá que essa citação vem desse link</strong></p>
+    <hr>
+    <p>Passe o mouse em cima de <abbr title="ABBR é abreviação de Abreviação">ABBR</abbr></p>
+    <hr>
+    <p><bdo dir="rtl">otxet od oãçerid a radum arap ODB</bdo></p>
+    <img src="exemplos/tagBdo.png" alt="Exemplo da tag BDO">
+    <hr>
+    <h2>E tem o HR</h2>
+    <p>HR para criar as linha já vista antes</p>
+    <hr>
+
+    <h1>Listas</h1>
+    <h2>Ordenadas</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <ol type="A" start="4">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h2>Não Ordenadas</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <ul type="circle">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h2>Descritas</h2>
+    <dl>
+        <dt>Item 1</dt>
+        <dd>Descrição</dd>
+        <dt>Item 2</dt>
+        <dd>Descrição</dd>
+        <dt>Item 3</dt>
+        <dd>Descrição</dd>
+    </dl>
+
+    <h2>Misturadas</h2>
+    <p>A tag lista pode ser misturada com praticamente qualquer tag</p>
+    <ol>
+        <li>Item 1</li>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li><a href="#">Link</a></li>
+        </ul>
+        <li>Item 2</li>
+        <dl>
+            <dt>Item 1</dt>
+            <dd>Descrição</dd>
+            <dt>Item 2</dt>
+            <dd>Descrição</dd>
+        </dl>
+    </ol>
+
+    <h1>Links</h1>
+    <h2>Link Externo</h2>
+    <p>Esse é a maneira padrão de criar um link mas não é recomendado <br> 
+        <a href="https://www.google.com/search?sca_esv=f21e304c56ab1b64&sxsrf=ANbL-n6Lngqs3a4B4U9KOmjddkMmP20SJA:1779733901462&udm=2&fbs=ADc_l-acAb_3MMOAUx0zmbUpgBqRiigBgL2I_pgQa-94zvB053XGJ8j52MAaeNcXRIAnvVdv2hS-xutuztQCtwyJHLDxZX9hKPZ8f1Tye7V6_-IFMYgHGIQNqspJMTsiek2GS7UL1JO_sZVYiWHw0Rb8Sg4mISBCdPZmaZ5cbre-g5N_npDIfjFAHN62uBGiPZ9A-wysfgyBzDdFEaaW25vgRcyhp7FQCw&q=bolsonaro+e+lula+meme&sa=X&ved=2ahUKEwiI8_a3idWUAxUKEbkGHTRrA8IQtKgLegQIFxAB&biw=767&bih=730&dpr=1.25">Link</a>
     </p>
     
-    <p><abbr title="Abreviação">ABBR para abreviação</abbr></p>
-    <p><bdo dir="rtl">BDO para mudar a direção do texto</bdo></p>
+    <p>Links devem possuir o atributo rel que define a relação entre a página atual e o recurso vinculado, ele é essencial para SEO(um conjunto de técnicas de marketing digital usadas para melhorar o posicionamento de um site). Se for colocar um link para outro site use os atributos target para que o site do link não sobrepuja o seu assim tendo menos chance da pessoa não voltar para o seu site <br> 
+        <a target="_blank" rel="external" href="https://www.google.com/search?q=cavalos&sca_esv=f21e304c56ab1b64&udm=2&biw=767&bih=730&sxsrf=ANbL-n51nAATjMdlyRM3DTWgFDLSePTG-A%3A1779734058411&ei=KpYUaqrlGOHX5OUP-53e4AE&ved=0ahUKEwiqouKCitWUAxXhK7kGHfuOFxwQ4dUDCBE&uact=5&oq=cavalos&gs_lp=Egtnd3Mtd2l6LWltZyIHY2F2YWxvczIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIKEAAYgAQYigUYQzIFEAAYgAQyBRAAGIAEMgUQABiABEijBVAaWBpwAXgAkAEAmAGIAaABiAGqAQMwLjG4AQPIAQD4AQGYAgKgAqABwgINEAAYgAQYigUYQxixA8ICBhAAGAcYHpgDAIgGAZIHAzEuMaAHpASyBwMwLjG4B5IBwgcFMi0xLjHIBxSACAE&sclient=gws-wiz-img">Link ideal</a>
+    </p>
 
-    <h2>E tem o HR</h2>
-    <p>HR para criar uma linha</p>
-    <hr>
+    <h2>Link Interno</h2>
+    <p><a href="css.html" rel="next">Link</a></p>
+    <p>Link de outra pasta <br>
+        <a href="pag2/index.html" rel="next">Link 2</a>
+    </p>
+
+    <h2>Link para Download</h2>
+    <p><a href="midia/Anotações.pdf" download="Anotações.pdf" type="application/pdf">Link</a></p>
 
     <h1>Tags de Imagem</h1>
     <p>Você sabe oque muda se a imagem ter a extensão jpg ou png?? <br> 
-    O JPG ele tem mais poder de compactação, já o PNG ele permite transparência <br> 
-    E tem também a extensão GIF que permite animação</p>
+    O <strong>JPG</strong> ele tem mais poder de compactação, ou seja consegue reduzir o tamanho do arquivo, mas à custa da qualidade da imagem. <br> Já o <strong>PNG</strong> ele é o contrário do JPG, ele é mais pesado, mas não perde qualidade da imagem e permite transparência. <br> E tem também a extensão <strong>GIF</strong> que permite animação.</p>
 
-    <p>VOCÊ SABIA: Você não pode usar qualquer imagem no google com intuito de ganhar dinheiro <br>
-    Para não usar as imagens erradas faça a pesquisa no google imagens, vá em ferramentas, depois em direito de uso e selecione Licença Creative Commons <br>
-    Ou use o site <a href="https://unsplash.com/pt-br">Unsplash</a> ou <a href="https://www.pexels.com/pt-br/">Pexels</a> mas tem vários outros também</p>
+    <p><strong>VOCÊ SABIA: Você não pode usar qualquer imagem no google com intuito de ganhar dinheiro <br>
+    Para não usar as imagens erradas faça a pesquisa no google imagens, vá em ferramentas, depois em direito de uso e selecioneLicença Creative Commons <br>
+    Ou use o site <a href="https://unsplash.com/pt-br">Unsplash</a> ou <a href="https://www.pexels.com/pt-br/">Pexels</a> mas temvários outros também</strong></p>
 
-    <p>DICA: Uma imagem muito grande pode pesar muito seu site, é bom você adicionar imagens de no máximo 1500 de largura e 1000 de altura para ter o equilíbrio de boa qualidade e desempenho. O recomendado é para celular 300x300, para tablets 700x700 e para computadores 1000x1000. Baixe o app <a href="https://www.gimp.org/downloads/">Gimp</a> para redimensionar sua imagem e você pode editar sua imagens nele de maneira gratuita</p>
+    <p><strong>DICA: Uma imagem muito grande pode pesar muito seu site, é bom você adicionar imagens de no máximo 1500 de largura e 1000 de altura para ter o equilíbrio de boa qualidade e desempenho. O recomendado é para celular 300x300, para tablets 700x700 e para computadores 1000x1000. Baixe o app <a href="https://www.gimp.org/downloads/">Gimp</a> para redimensionar sua imagem e você pode editar sua imagens nele de maneira gratuita</strong></p>
 
     <h2>Tag IMG</h2>
     <p>A tag IMG cria um espaço para imagem, SRC é onde você coloca o indica a origem da imagem e ALT é um texto alternativo para explicar oque é a imagem para leitores de tela e acessibilidade</p>
     <img src="Paisagem1500.jpg" alt="Paisagem">
+    <img src="exemplos/exemploImg.jpg" alt="Exemplo do elemento IMG">
 
     <h2>Imagem dentro de uma pasta</h2>
     <p>E se a imagem estiver em outra pasta</p>
@@ -176,78 +260,6 @@
     <h2>Formatos</h2>
     <p>MP3: Use o formato MP3 quando precisar de compatibilidade universal e arquivos leves. <br>
     OGG: O formato OGG deve ser usado quando você precisa de um arquivo de áudio altamente comprimido com qualidade superior ao MP3 e prefere uma tecnologia de código aberto e livre de royalties.</p>
-
-    <h1>Links</h1>
-    <h2>Link Externo</h2>
-    <p>Esse é a maneira padrão de criar um link mas não é recomendado <br> 
-        <a href="https://www.google.com/search?sca_esv=f21e304c56ab1b64&sxsrf=ANbL-n6Lngqs3a4B4U9KOmjddkMmP20SJA:1779733901462&udm=2&fbs=ADc_l-acAb_3MMOAUx0zmbUpgBqRiigBgL2I_pgQa-94zvB053XGJ8j52MAaeNcXRIAnvVdv2hS-xutuztQCtwyJHLDxZX9hKPZ8f1Tye7V6_-IFMYgHGIQNqspJMTsiek2GS7UL1JO_sZVYiWHw0Rb8Sg4mISBCdPZmaZ5cbre-g5N_npDIfjFAHN62uBGiPZ9A-wysfgyBzDdFEaaW25vgRcyhp7FQCw&q=bolsonaro+e+lula+meme&sa=X&ved=2ahUKEwiI8_a3idWUAxUKEbkGHTRrA8IQtKgLegQIFxAB&biw=767&bih=730&dpr=1.25">Link</a>
-    </p>
-    
-    <p>Links devem possuir o atributo rel que define a relação entre a página atual e o recurso vinculado, ele é essencial para SEO(um conjunto de técnicas de marketing digital usadas para melhorar o posicionamento de um site). Se for colocar um link para outro site use os atributos target para que o site do link não sobrepuja o seu assim tendo menos chance da pessoa não voltar para o seu site <br> 
-        <a target="_blank" rel="external" href="https://www.google.com/search?q=cavalos&sca_esv=f21e304c56ab1b64&udm=2&biw=767&bih=730&sxsrf=ANbL-n51nAATjMdlyRM3DTWgFDLSePTG-A%3A1779734058411&ei=KpYUaqrlGOHX5OUP-53e4AE&ved=0ahUKEwiqouKCitWUAxXhK7kGHfuOFxwQ4dUDCBE&uact=5&oq=cavalos&gs_lp=Egtnd3Mtd2l6LWltZyIHY2F2YWxvczIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIKEAAYgAQYigUYQzIFEAAYgAQyBRAAGIAEMgUQABiABEijBVAaWBpwAXgAkAEAmAGIAaABiAGqAQMwLjG4AQPIAQD4AQGYAgKgAqABwgINEAAYgAQYigUYQxixA8ICBhAAGAcYHpgDAIgGAZIHAzEuMaAHpASyBwMwLjG4B5IBwgcFMi0xLjHIBxSACAE&sclient=gws-wiz-img">Link ideal</a>
-    </p>
-
-    <h2>Link Interno</h2>
-    <p><a href="css.html" rel="next">Link</a></p>
-    <p>Link de outra pasta <br>
-        <a href="pag2/index.html" rel="next">Link 2</a>
-    </p>
-
-    <h2>Link para Download</h2>
-    <p><a href="midia/Anotações.pdf" download="Anotações.pdf" type="application/pdf">Link</a></p>
-
-    <h1>Listas</h1>
-    <h2>Ordenadas</h2>
-    <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ol>
-    <ol type="A" start="4">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ol>
-
-    <h2>Não Ordenadas</h2>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
-    <ul type="circle">
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
-
-    <h2>Descritas</h2>
-    <dl>
-        <dt>Item 1</dt>
-        <dd>Descrição</dd>
-        <dt>Item 2</dt>
-        <dd>Descrição</dd>
-        <dt>Item 3</dt>
-        <dd>Descrição</dd>
-    </dl>
-
-    <h2>Misturadas</h2>
-    <p>A tag lista pode ser misturada com praticamente qualquer tag</p>
-    <ol>
-        <li>Item 1</li>
-        <ul>
-            <li>Item 1</li>
-            <li>Item 2</li>
-            <li><a href="#">Link</a></li>
-        </ul>
-        <li>Item 2</li>
-        <dl>
-            <dt>Item 1</dt>
-            <dd>Descrição</dd>
-            <dt>Item 2</dt>
-            <dd>Descrição</dd>
-        </dl>
-    </ol>
 
     <p>Está página foi criada com o aprendizado dado pelo <a href="https://www.cursoemvideo.com/" target="_blank" rel="nofollow">Curso em Vídeo</a></p>
 </body>
